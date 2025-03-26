@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Note",
   description: "note",
   themeConfig: {
+    i18nRouting: false,
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
