@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  text: "Note"
-  tagline: My Hello World
+  text: Note
+  tagline: 个人学习笔记
 ---
 
