@@ -2,6 +2,7 @@
   "name": "cycdc98.github.io",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
@@ -12,9 +13,14 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "vitepress": "^1.6.3"
+    "vitepress": "^1.6.4"
   },
   "volta": {
-    "node": "22.17.0"
-  }
+    "node": "22.17.0",
+    "yarn": "4.9.3"
+  },
+  "dependencies": {
+    "vue": "^3.5.19"
+  },
+  "packageManager": "yarn@4.9.3"
 }

@@ -26,11 +26,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: 'npm'
-      - name: npm install, build
+          cache: 'yarn'
+      - name: yarn install, build
         run: |
-          npm ci
-          npm run docs:build
+          yarn --version
+          yarn install
+          yarn docs:build
       - name: Archive products artifacts
         uses: actions/upload-pages-artifact@v3
         with:
