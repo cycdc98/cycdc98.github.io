@@ -13,15 +13,17 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/node": "^22.18.13",
     "typescript": "^5.9.2",
-    "vitepress": "^1.6.4"
+    "unplugin-auto-import": "^20.2.0",
+    "unplugin-vue-components": "^30.0.0"
   },
   "volta": {
-    "node": "22.17.0",
-    "yarn": "4.9.3"
+    "node": "22.17.0"
   },
   "dependencies": {
+    "element-plus": "^2.11.7",
+    "vitepress": "^1.6.4",
     "vue": "^3.5.19"
-  },
-  "packageManager": "yarn@4.9.3"
+  }
 }
