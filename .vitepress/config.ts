@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 import AutoImport from "unplugin-auto-import/vite";
 import Components from "unplugin-vue-components/vite";
 import { ElementPlusResolver } from "unplugin-vue-components/resolvers";
-
+import importCss from "vite-plugin-import-css";
 import examples from "./sidebar/examples.js";
 import jenkins from "./sidebar/jenkins.js";
 import photography from "./sidebar/photography.js";
@@ -37,5 +37,6 @@ export default defineConfig({
         resolvers: [ElementPlusResolver()],
       }),
     ],
+    ssr: { noExternal: ["element-plus"] },
   },
 });
