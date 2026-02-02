@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+
+.vitepress/cache
+.vitepress/dist
+
+**/*-data/
+
+.pnp.*
+.yarn/unplugged
+.yarn/install-state.gz
