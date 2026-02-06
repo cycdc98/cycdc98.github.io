@@ -1,0 +1,7 @@
+name: ubuntu-dev
+services:
+  ubuntu:
+    container_name: ubuntu
+    image: ubuntu:jammy
+    tty: true
+    stdin_open: true
